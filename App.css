@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.todo-inputs {
+  display: block;
+  margin: 5px auto;
+  width: 150px;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+section,
+.todo-item {
+  margin: 10px;
+}
+
+.todo-item {
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
